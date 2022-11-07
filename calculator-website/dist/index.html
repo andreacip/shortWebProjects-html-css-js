@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="/dist/calculation.js"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <title>01 | Calcolatrice</title>
+</head>
+<body>
+    <div class="main-container">
+        <div class="calculator-container">
+            <!-- calculator display -->
+            <div class="calculator-display">
+                <p id="text-calculation">0</p>
+            </div>
+            <!-- calculator button grid -->
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>7</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>8</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>9</p>
+            </div>
+            <div class="calculator-btn calculator-btn-orange" onclick="removeLastChar()">
+                <p>DEL</p>
+            </div>
+            <div class="calculator-btn calculator-btn-orange" onclick="cleanCalculationString()">
+                <p>AC</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>4</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>5</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>6</p>
+            </div>
+            <div class="calculator-btn calculator-btn-blue-medium " onclick="addValue(this)">
+                <p>x</p>
+            </div>
+            <div class="calculator-btn calculator-btn-blue-medium" onclick="addValue(this)">
+                <p>%</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>1</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>2</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>3</p>
+            </div>
+            <div class="calculator-btn calculator-btn-blue-medium" onclick="addValue(this)">
+                <p>+</p>
+            </div>
+            <div class="calculator-btn calculator-btn-blue-medium" onclick="addValue(this)">
+                <p>-</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>0</p>
+            </div>
+            <div class="calculator-btn" onclick="addValue(this)">
+                <p>.</p>
+            </div>
+            <div class="calculator-btn calculator-btn-blue-medium">
+                <p>(</p>
+            </div>
+            <div class="calculator-btn calculator-btn-blue-medium">
+                <p>)</p>
+            </div>
+            <div class="calculator-btn calculator-btn-blue-medium" onclick="calculateOperation()">
+                <p>=</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

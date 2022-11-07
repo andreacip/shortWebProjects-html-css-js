@@ -1,0 +1,11 @@
+{
+  "name": "calcolatrice-website",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass scss/ -o dist/css/ "
+  },
+  "author": "",
+  "license": "ISC"
+}
